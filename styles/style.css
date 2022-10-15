@@ -1,0 +1,125 @@
+html,
+body,
+footer,
+hgroup,
+nav,
+article,
+section,
+figure,
+figcaption,
+h3,
+ul,
+li,
+body,
+div,
+img {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+
+html {
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+}
+
+body {
+  background-image: url("../images/art-background4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: white;
+  width: 33em;
+  height: auto;
+  padding: 2em;
+  padding-left: 1em;
+  margin-left: 10%;
+}
+
+header h1 {
+  font-family: "Six Caps";
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-stretch: extra-condensed;
+}
+
+header p {
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  border: 0;
+}
+
+.cuadroTransparente{
+    margin-top: 10em;
+    width: 25em;
+    margin-left: 10%;
+}
+
+.cuadroTransparente > p {
+    color: black;
+    padding: 0.6em;
+    padding-left: 1em;
+    background-color: rgba(255, 255, 255,0.6);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.cuadroCentral{
+    color: black;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    background-color: rgba(255, 255, 255,0.3);
+    font-size: 1em;
+}
+
+.cuadroCentral > p {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.horario p{
+    background: rgba(0, 128, 0,0.6);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1em;
+    width: 15em;
+}
+
+.contacto {
+    background-color: white;
+    display: flex;
+}
+
+.contacto a{
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    font-size: 0.7em;
+    text-decoration-style: dotted;
+}
+
+.contacto ul{
+    padding: 1em;
+    display: flex;
+    list-style: none;
+}
+
+.contacto li{
+    padding-right: 0.3em;
+}
